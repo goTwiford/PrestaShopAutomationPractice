@@ -62,7 +62,7 @@ public class PositiveScenarios {
 
 		driver.findElement(By.id("lastname")).sendKeys(lastName);
 
-		String addresLine1 = faker.address().streetAddress();
+		//String addresLine1 = faker.address().streetAddress();
 
 		String addresNumber = faker.address().streetAddress();
 		driver.findElement(By.id("address1")).sendKeys(addresNumber);
